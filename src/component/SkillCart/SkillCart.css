@@ -1,0 +1,9 @@
+.item-cart {
+    background-color: #fff;
+    margin-block-start: 2em;
+    padding: 1.5em 0.5em 0;
+}
+
+.item-cart:hover {
+    box-shadow: 5px 5px 10px -1px #c1bcbc;
+}

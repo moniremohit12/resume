@@ -1,0 +1,8 @@
+.icons:not(:last-child) {
+    margin-inline-end: 0.5em;
+}
+
+.first {
+    background-color: #124587;
+    color: #fff;
+}

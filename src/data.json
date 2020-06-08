@@ -1,0 +1,74 @@
+
+{
+    "title": "Hello Im Monire",
+    "subtitle": "Full stack Dev | Open-Source enthusiat",
+    "links": {
+        "telegram": "https://web.telegram.org/",
+        "stacjoverFlow": "https://stackoverflow.com/jobs",
+        "linkden": "/url"
+    },
+    "section": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "skldjf fsdjfsljd sljdfsd fskjfslkdjlsljdklsjlkjs fld jsklj"
+                },
+                {
+                    "type": "p",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                },
+                {
+                    "type": "p",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                },
+                {
+                    "type": "p",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content" : {
+                        "title": "Html",
+                        "src": "./image/React.png",
+                        "alt": "Html"
+                    }
+
+                },
+                {
+                    "type": "card",
+                    "content" : {
+                        "title": "Css",
+                        "src": "./image/React.png",
+                        "alt": "Css"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content" : {
+                        "title": "JavaScript",
+                        "src": "./image/JavaScript.png",
+                        "alt": "JavaScipt"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content" : {
+                        "title": "React",
+                        "src": "./image/React.png",
+                        "alt": "React"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons": {
+        "down": "./image/down.png"
+    }
+}
