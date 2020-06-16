@@ -5,6 +5,7 @@ import Fullpage from '../fullpage/Fullpage.js';
 import { Link, Element } from 'react-scroll';
 import Downicon from '../Downicon/Downicon';
 
+
 import './TitleAndIcons.css';
 
 class TitleAndIcons extends Component {

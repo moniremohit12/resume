@@ -1,34 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import TitleAndIcons from './component/TitelAndIcons/TitleAndIcons';
 import AbuteSection from './component/AbuteSection/AbuteSection';
 import SkillSection from './component/SkillSection/SkillSection';
-
-// import * as Scroll from 'react-scroll';
-
-import { Link, Element } from 'react-scroll';
-// import Downicon from './component/Downicon/Downicon';
-
+import Snow from './component/snowstrom';
+import Navigation from './component/Navigation/Navigation'
 import './App.css';
 
-function App() {
-  return (
-    <div className="app">
-        <div className="navigation">
-          <ul className="menu">
-            <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}>
+class App extends Component {
 
-              <li className="menu-item">about</li>
-            </Link>
-              <li className="menu-item">skill</li>
-            
-          </ul>
-        </div>
-        <TitleAndIcons />
+  render(){
+    return (
+      <div className="app">
+        <Snow/>
+        <Navigation/>
+        <TitleAndIcons/>
         <AbuteSection/>
         <SkillSection/>
-        <Element name="about" className="element"/>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
