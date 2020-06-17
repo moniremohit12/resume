@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import data from '../../data.json';
 import Fullpage from '../fullpage/Fullpage.js';
-import { Link, Element } from 'react-scroll';
+// import { Link, Element } from 'react-scroll';
 import Downicon from '../Downicon/Downicon';
 
 
@@ -25,12 +25,12 @@ class TitleAndIcons extends Component {
                     }
                     </div>
                 </Fullpage>
-                <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}>
+                {/* <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}> */}
                 <Downicon
                     icons={data.icons.down}
                 />
-                </Link>
-                <Element name="about" className="element"/>
+                {/* </Link> */}
+                {/* <Element name="about" className="element"/> */}
             </div>
         )
     }

@@ -2,16 +2,16 @@ import React, {Component} from 'react';
 import data from '../../data.json';
 import Fullpage from '../fullpage/Fullpage.js';
 
-import { Link, Element } from 'react-scroll';
+// import { Link, Element } from 'react-scroll';
 
 import './AbuteSection.css'
 class AbuteSection extends Component {
     render() {
         return (
             <Fullpage className="secend">
-                <Link activeClass="active" to="me" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}>
+                {/* <Link activeClass="active" to="me" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}>
                     downe
-                </Link>
+                </Link> */}
                 <h2>{data.section[0].title}</h2>
                 <div className="text">
                 {
@@ -21,7 +21,7 @@ class AbuteSection extends Component {
                         )
                     })
                 }
-            <Element name="me" className="element"/>
+            {/* <Element name="me" className="element"/> */}
 
                 </div>
             </Fullpage>
