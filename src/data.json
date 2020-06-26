@@ -1,31 +1,36 @@
 
 {
-    "title": "Hello Im Monire",
-    "subtitle": "Full stack Dev | Open-Source enthusiat",
+    "title": "Welcome - My name is Monire !",
+    "subtitle": "Full Stack | React | Html | CSS ",
     "links": {
-        "telegram": "https://web.telegram.org/",
-        "stacjoverFlow": "https://stackoverflow.com/jobs",
-        "linkden": "/url"
+        "Git":"https://github.com/moniremohit12",
+        "Instagram":"https://www.instagram.com/monire_mohit/",
+        "Email":"mailto:m.mohit1373@gmail.com",
+        "Whatsapp": "https://api.whatsapp.com/send?phone=+989124940538"
     },
     "section": [
         {
-            "title": "About",
+            "title": "About me",
             "items": [
                 {
                     "type": "p",
-                    "content": "skldjf fsdjfsljd sljdfsd fskjfslkdjlsljdklsjlkjs fld jsklj"
+                    "content": "My name is : Monire Mohit"
                 },
                 {
                     "type": "p",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                    "content": "I am : Mechanical Engineer"
                 },
                 {
                     "type": "p",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                    "content": "I studied in : Birjand State University"
                 },
                 {
                     "type": "p",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                    "content": "I'm interested in learning new things"
+                },
+                {
+                    "type": "p",
+                    "content": "Experienced developer with a demonstrated history of working in the web and web app development industry. UX and UI Expert, graduated from Islamic Azad University."
                 }
             ]
         },
@@ -37,7 +42,8 @@
                     "content" : {
                         "title": "Html",
                         "src": "./image/React.png",
-                        "alt": "Html"
+                        "alt": "Html",
+                        "logo": "devicon-html5-plain-wordmark"
                     }
 
                 },
@@ -46,29 +52,31 @@
                     "content" : {
                         "title": "Css",
                         "src": "./image/React.png",
-                        "alt": "Css"
-                    }
-                },
-                {
-                    "type": "card",
-                    "content" : {
-                        "title": "JavaScript",
-                        "src": "./image/JavaScript.png",
-                        "alt": "JavaScipt"
+                        "alt": "Css",
+                        "logo": "devicon-css3-plain-wordmark"
                     }
                 },
                 {
                     "type": "card",
                     "content" : {
                         "title": "React",
-                        "src": "./image/React.png",
-                        "alt": "React"
+                        "alt": "React",
+                        "logo": "devicon-react-original colored"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "title": "JavaScript",
+                        "alt": "JavaScript",
+                        "logo": "devicon-javascript-plain"
                     }
                 }
             ]
         }
     ],
     "icons": {
-        "down": "./image/down.png"
+        "down": "./image/down.png",
+        "wizard": "./image/wizard.png"
     }
 }

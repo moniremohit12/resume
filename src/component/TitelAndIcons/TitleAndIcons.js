@@ -2,36 +2,29 @@ import React, {Component} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import data from '../../data.json';
 import Fullpage from '../fullpage/Fullpage.js';
-// import { Link, Element } from 'react-scroll';
-import Downicon from '../Downicon/Downicon';
-
+import { Element } from "react-scroll";
 
 import './TitleAndIcons.css';
 
 class TitleAndIcons extends Component {
     render() {
         return (
-            <div>
-                <Fullpage className="first">
+            <Element name="title" className="element">
+                <Fullpage className="first" id="FirstSection">
                     <h1>{data.title}</h1>
                     <h2>{data.subtitle}</h2>
-                    <div>
+                    <div className="contaner-icon">
                     {
                         Object.keys(data.links).map(icon => {
                             return(
-                                <SocialIcon key={"icon" + icon} className="icons" url={data.links[icon]}/>
+                                <SocialIcon key={"icon" + icon} className="icons" url={data.links[icon]}    style={{ height: 60, width: 60 }}
+                                />
                             )                        
                         })
                     }
                     </div>
                 </Fullpage>
-                {/* <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={0} onSetActive={this.handleSetActive}> */}
-                <Downicon
-                    icons={data.icons.down}
-                />
-                {/* </Link> */}
-                {/* <Element name="about" className="element"/> */}
-            </div>
+            </Element>
         )
     }
 }
